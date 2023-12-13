@@ -1,0 +1,21 @@
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        buildtype: 3.7-alpine
+    image: mypythonimage
+    ports:
+      - "5000:5000"
+    volumes:
+      - app_vol:/app
+    environment:
+      FLASK_DEBUG: "true"
+  
+  redis:
+    image: redis:alpine
+
+volumes:
+  app_vol:

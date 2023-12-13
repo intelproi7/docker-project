@@ -1,0 +1,6 @@
+creating a docker-compose file with the use of secret in it.
+
+1. creating a mysql db
+2. creating a wordpress box from the image.
+
+

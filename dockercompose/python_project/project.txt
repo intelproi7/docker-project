@@ -1,0 +1,10 @@
+# python project
+1. create a project with the python as a server both backend and frontend (create a image from the docker file instead of pulling it from the docekr hub)
+depends upon the flask and redis
+2. create a container of the redis data base to store the data in the db.
+
+
+
+1. needs a seperate network and must attach a volume in order to learn it 
+2. need to have a env variables in the seperate file and also need to use args command to learn 
+

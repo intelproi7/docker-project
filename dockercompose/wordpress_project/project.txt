@@ -1,0 +1,4 @@
+1. db image  restart always
+2. php my admin dependes upon db and restart always
+2. wordpress image depends upon db restart always
+
