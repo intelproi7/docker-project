@@ -1,0 +1,13 @@
+version: '3'
+services:
+  app:
+    build: 
+      context: .
+      dockerfile: Dockerfile
+      args:
+        buildtype: 3.8-alpine
+    command: 
+      python3 app.py
+    ports:
+      - "8080:8080"
+    
